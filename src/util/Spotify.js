@@ -2,6 +2,8 @@ const clientId = process.env.REACT_APP_CLIENT_ID;
 const redirectUri = 'https://webalation.github.io/jammming/';
 let accessToken;
 
+// Spotify code
+
 const Spotify = {
     getAccessToken() {
         if (accessToken) {
